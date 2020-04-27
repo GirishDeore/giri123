@@ -1,7 +1,7 @@
 pipeline {
    agent any
    environment{ 
-    PATH = "/home/sunbeam/Desktop/new_jenkins/my-app:$PATH"
+    PATH = "/home/sunbeam/Desktop/new_jenkins/my-app/src/main/java/com/mycompany/app:$PATH"
    }
   
    stages {
